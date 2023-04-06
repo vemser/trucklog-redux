@@ -1,0 +1,51 @@
+{
+  "name": "truck-log",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.0.0",
+    "@phosphor-icons/react": "^2.0.6",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@types/react-redux": "^7.1.25",
+    "chart.js": "^4.2.1",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-content-loader": "^6.2.1",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.7",
+    "react-icons": "^4.8.0",
+    "react-input-mask": "^2.0.4",
+    "react-modal": "^3.16.1",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "react-toastify": "^9.1.2",
+    "redux-persist": "^6.0.0",
+    "styled-components": "^5.3.9",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-input-mask": "^3.0.2",
+    "@types/react-modal": "^3.13.1",
+    "@types/styled-components": "^5.1.26",
+    "@types/yup": "^0.32.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-c8": "^0.29.7",
+    "jsdom": "^21.1.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vitest": "^0.29.7"
+  }
+}
